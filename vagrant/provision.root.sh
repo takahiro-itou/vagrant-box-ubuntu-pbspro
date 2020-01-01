@@ -6,11 +6,11 @@ sudo  timedatectl  set-timezone Asia/Tokyo
 
 sudo  apt  update
 
-sudo  apt-mark   hold  libssl1.1
-sudo  apt  upgrade -y
-sudo  apt  install -y  build-essential
+export DEBIAN_FRONTEND=noninteractive
+sudo  -E  apt  upgrade -y
+sudo  -E  apt  install -y   build-essential
 
-sudo  apt  install -y   git  emacs  \
+sudo  -E  apt  install -y   git  emacs  \
     gcc  make  libtool  libhwloc-dev  libx11-dev            \
     libxt-dev  libedit-dev  libical-dev  ncurses-dev        \
     perl  postgresql-server-dev-all  postgresql-contrib     \
