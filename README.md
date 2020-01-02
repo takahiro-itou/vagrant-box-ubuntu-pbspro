@@ -1,4 +1,4 @@
-# vagrant-box-ubuntu-develop
+# vagrant-box-ubuntu-pbspro
 
 PBS Pro をインストールした Ubuntu 18.04 (bionic) 64 bit
 
