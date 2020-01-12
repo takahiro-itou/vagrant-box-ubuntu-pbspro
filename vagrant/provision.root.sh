@@ -8,9 +8,9 @@ sudo  apt  update
 
 export DEBIAN_FRONTEND=noninteractive
 sudo  -E  apt  upgrade -y
-sudo  -E  apt  install -y   build-essential
+sudo  apt  install -y   build-essential
 
-sudo  -E  apt  install -y   git  emacs  \
+sudo  apt  install -y   git  emacs                          \
     gcc  make  libtool  libhwloc-dev  libx11-dev            \
     libxt-dev  libedit-dev  libical-dev  ncurses-dev        \
     perl  postgresql-server-dev-all  postgresql-contrib     \
